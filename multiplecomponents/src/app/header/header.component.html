@@ -1,0 +1,18 @@
+<p>header works!</p>
+<h1>Hello developer : {{getStorage()}}</h1>
+<h1>time is {{getTime()}}</h1>
+<h2>time iss {{time}}</h2>
+<table>
+    <tbody>
+    <tr>
+        <td>col1</td>
+        <td>col2</td>
+        <td>col3</td>
+    </tr>
+    <tr *ngFor="let obj of response">
+        <td>{{obj.name}}</td>
+        <td>{{obj.capital}}</td>
+        <td>{{obj.population}}</td>
+    </tr>
+</tbody>
+</table>
