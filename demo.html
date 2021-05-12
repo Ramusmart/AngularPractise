@@ -1,0 +1,19 @@
+<script>
+    var arr1 = [{"p_id":1,"p_name":"TV"},{"p_id":2,"p_name":"Tape"}]
+    document.write(`<table border="1" cellspacing="10px" cellpadding="10px">
+        <thead>
+            <tr>
+                <th>s_no</th>
+                <th>p_id</th>
+                <th>p_name</th>
+            </tr>
+            </thead>
+            <tbody>`)
+            arr1.forEach((element,index)=>{
+                document.write(`<tr>
+                    <td>${index}</td>
+                    <td>${element.p_id}</td>
+                    <td>${element.p_name}</td>
+                    </tr>`)})
+                    document.write(`</tbody></table>`)
+</script>
