@@ -1,0 +1,40 @@
+<script>
+    let obj = {
+        "login" : login,
+        "logout" : logout
+    };
+    function login(){
+        return "welcome to login";
+    }
+    function logout(){
+        return "welcome to logoff";
+    }
+    console.log(obj.login(), obj.logout())
+
+    // freeze to make the variables readonly , read(yes), write(no), delete(no)
+    let obj1 = {
+        "pid": "ramu"
+    };
+    Object.freeze(obj1)
+    console.log(obj1.pid)
+    obj1.pid="ramu2"
+    console.log(obj1.pid)
+    delete obj1.pid
+    console.log(obj1.pid)
+
+    //seal to make the variables read and write, read(yes), update(yes), write(no), delete(no)
+    let obj2 = {
+        "rid" : "ramuid"
+    };
+    Object.seal(obj2);
+    console.log(obj2.rid)
+    obj2.rid="ramuid updated"
+    console.log(obj2.rid)
+
+    // updating json object : 
+    let r1 = {
+
+    }
+    r1["key1"] ="keyone";
+    console.log(r1)
+</script>
