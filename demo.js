@@ -21,3 +21,10 @@ for(var key in obj){
 
 var sys = Symbol(100);
 console.log(sys)
+
+//IIFE : 
+let res = ((s1,s2,s3)=>{
+    return `Our Family ${s1}..${s2}...${s3}`;
+})("Ramu","Pandu","Mongo");
+
+console.log(res);
