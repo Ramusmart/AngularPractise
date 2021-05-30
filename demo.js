@@ -15,16 +15,16 @@ var obj = {
 // obj.forEach((element,index)=>{
 // console.log(element,index)
 // })
-for(var key in obj){
-    console.log(key, obj[key])
-}
+// for(var key in obj){
+//     console.log(key, obj[key])
+// }
 
-var sys = Symbol(100);
-console.log(sys)
+// var sys = Symbol(100);
+// console.log(sys)
 
 //IIFE : 
-let res = ((s1,s2,s3)=>{
-    return `Our Family ${s1}..${s2}...${s3}`;
-})("Ramu","Pandu","Mongo");
+// let res = ((s1,s2,s3)=>{
+//     return `Our Family ${s1}..${s2}...${s3}`;
+// })("Ramu","Pandu","Mongo");
 
-console.log(res);
+// console.log(res);
