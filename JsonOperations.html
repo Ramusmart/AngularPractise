@@ -1,0 +1,91 @@
+<!--
+    <script>
+
+    let obj = {
+    "P_ID" : 1111
+}
+console.log(obj)
+Object.defineProperty(obj,"P_Name",{value:"This is P_Name value",writable:false})
+console.log(obj)
+
+obj.P_ID="updated pid"
+console.log(obj)
+
+obj.P_Name="updated pname value"
+console.log(obj)
+
+delete obj.P_Name;
+console.log(obj)
+
+</script> 
+<script>
+    let obj = {
+
+    }
+
+    //pid = read(yes) update(yes) delete(yes)
+    //P_name = read(yes) update(no) delete(no)
+    //p_cost = read(yes) update(yes) delete(yes)
+
+    Object.defineProperties(obj,{"p_name":{value:"name",writable:false},"p_cost":{value:1000,writable:true}})
+    console.log(obj)
+    obj.p_cost=2000
+    console.log(obj)
+</script> 
+<script>
+    let obj = {
+        key1 : "value1",
+        key2 : "value2",
+        key3 : "value3"
+    }
+    console.log( Object.keys(obj))
+    console.log( Object.values(obj))
+    
+</script> 
+<script>
+    let obj1 = {p1:"name"}
+    let obj2 = {p2:"name2"}
+    let obj3 = {p3:"name"}
+    let obj = Object.assign(obj1,obj2,obj3)
+    console.log(obj)
+    let final = {...obj1,...obj2,...obj3}
+    console.log(final)
+    console.log(obj.hasOwnProperty("p1"));
+    
+</script> -->
+<!-- 
+    iterating through a json objects array 
+<script>
+    let products = [
+        {"pid":123,"pname":"ramu"},
+        {"pid":123,"pname":"ramu1"},
+        {"pid":123,"pname":"ramu2"},
+        {"pid":123,"pname":"ramu3"}
+    ];
+    document.write(`<table border="1" align="center"><thead><tr>
+        <th>pid</th>
+        <th>pnumber</th>
+        <th>pid</th>
+        <th>dff</th>
+        </tr>
+        </thead><tbody>`);
+        products.forEach((element,index)=>{
+            document.write(`<tr>
+                <td>${index+1}</td>
+                <td>${element.pid}</td></tr>`)
+
+        })
+        document.write(`</tbody></table>`)
+</script>
+-->
+<script>
+    let obj = {
+        "s1" : "ReactJS",
+        "s2" : "NodeJS",
+        "s3" : "MongoDB"
+    }
+    let arr = Object.entries(obj);
+    console.log(arr)
+    let obj1 =  Object.fromEntries(arr)
+    console.log(obj1)
+</script>
