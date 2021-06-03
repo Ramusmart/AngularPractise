@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "pid": 111,
+      "pname": "ramu1",
+      "pcost": 100
+    },
+    {
+      "id": 2,
+      "pid": 222,
+      "pname": "ramu2",
+      "pcost": 222
+    },
+    {
+      "id": 3,
+      "pid": 333,
+      "pname": "ramu3",
+      "pcost": 333
+    },
+    {
+      "id": 4,
+      "pid": 444,
+      "pname": "ramu4",
+      "pcost": 444
+    },
+    {
+      "id": 5,
+      "pid": 555,
+      "pname": "ramu5",
+      "pcost": 555
+    },
+    {
+      "id": 7,
+      "pid": 777,
+      "pname": "ramu7",
+      "pcost": 100
+    }
+  ]
+}

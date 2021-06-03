@@ -1,0 +1,29 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- 
+    <script>
+$.ajax({
+    method : "GET",
+    url : "https://restcountries.eu/rest/v2/all",
+    success : (posRes)=>{
+        console.log(posRes);
+    },
+    error : (errRes)=>{
+        console.log(errRes);
+    }
+
+});
+
+</script> -->
+<script>
+    $.ajax({
+        method : "POST",
+        url : "http://test-routes.herokuapp.com/test/uppercase",
+        data : {"message":"welcome to reactJS"},
+        success : (posRes)=>{
+            console.log(posRes);
+        },
+        error : (errRes)=>{
+            console.log(errRes);
+        }
+    })
+</script>

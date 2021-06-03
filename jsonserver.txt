@@ -1,0 +1,16 @@
+JSON server 
+=============
+
+-JSON server used to develop Rest APIS 
+    GET,POST,PUT etc., 
+
+-JSOn server supports only JSON data 
+-JSON server is light weight server 
+-Default port is 3000
+-we will install JSON server by command = > npm install -g json-server 
+-we will run server by using > json-server --watch demo.json 
+
+
+we can post to json and we can call json by url given by json-server
+npmjs.com/package/json-server
+we can search for particular record, pagination 
