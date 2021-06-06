@@ -18,3 +18,13 @@ yarn add express @types/express mongodb @types/mongodb cors @types/cors body-par
 ac > ac.ts 
 vm > vm.ts 
 Server.ts
+
+//// Arrays ..... 
+
+functions : 
+1. array.forEach(element => {
+    
+});
+
+2. array.map()
+
